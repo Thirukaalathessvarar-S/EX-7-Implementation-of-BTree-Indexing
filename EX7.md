@@ -1,7 +1,10 @@
 # EX 7: Implementation of B-Tree Indexing
-## Date: 
+
+## Date: 14.09.2023 
+
 ## AIM: 
 To implement B-tree indexing and to search an element in the B-tree using python
+
 ## ALGORITHM:
 <div align="justify">
 1. Starting from the root node, compare k with the first key of the node.<br>
@@ -13,8 +16,8 @@ If k < next key, search the left child of this key (ie. k lies in between the fi
 Else, search the right child of the key.<br>
 5. Repeat steps 1 to 4 until the leaf is reached.<br>
 </div>
-## PROGRAM:
-  
+
+## PROGRAM:  
   ```python
 # Searching a key on a B-tree in Python
 # Create a node
